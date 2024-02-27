@@ -1,0 +1,7 @@
+*
+
+!*.lua
+!.gitignore
+
+__startup.lua
+*.py
