@@ -145,9 +145,9 @@ if ShowKontaktForTrack(track) then
     return
 end
 
-local addKontakt = reaper.ShowMessageBox("Add Kontakt 7?", "No VST3i on track", 4)
+local addKontakt = reaper.ShowMessageBox("Add Kontakt 8?", "No VST3i on track", 4)
 
 -- 'VST3i: Kontakt 7 (Native Instruments)'
 if addKontakt == 6 then
-    reaper.TrackFX_AddByName(track, "Kontakt 7", false, -1)
+    reaper.TrackFX_AddByName(track, "Kontakt 8", false, -1)
 end
